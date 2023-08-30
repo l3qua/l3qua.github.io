@@ -1,9 +1,33 @@
-.categories{
-    background-color:#198754 ;
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#2f4f4f;
 }
-.bgdak{
+.title{
     background-color: #212529;
+    text-align: center;
+    border: #22B14C dotted;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+.top{
+    background-color:#198754 ;
+    font-size: 20px;
+    text-align: center;
 }
 .abtme{
     background-color: #0D6EFD;
+    border: 0.15rem solid;
+    border-radius: 8px;
+    padding: 0.2rem;
+}
+.projects{
+    background-color: #22B14C;
+    text-align: center;
+    border: #000 0.15rem solid;
+    border-radius: 8px;
+    padding: 0.2rem;
+}
+.a{
+    font-size: xx-large;
+    text-align: center;
 }
