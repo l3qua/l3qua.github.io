@@ -1,24 +1,30 @@
 .body{
     font-family: Arial, Helvetica, sans-serif;
-    background:#2f4f4f;
+    background: "";
 }
 .title{
     background-color: #212529;
     text-align: center;
     border: #22B14C dotted;
-    border-radius: 1rem;
+    border-radius: 550px;
     padding: 0.2rem;
+    height: 150px;
 }
 .top{
     background-color:#198754 ;
     font-size: 20px;
     text-align: center;
+.tpad{
+    padding: 1rem;
+}
 }
 .abtme{
-    background-color: #0D6EFD;
+    background-color: #0000002e;
     border: 0.15rem solid;
-    border-radius: 8px;
-    padding: 0.2rem;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    backdrop-filter: blur(12px);
 }
 .projects{
     background-color: #22B14C;
@@ -30,4 +36,31 @@
 .a{
     font-size: xx-large;
     text-align: center;
+}
+.logo{
+    bottom: px;
+    position: relative;
+    text-align: center;
+    /* display: flex; */
+    padding: 3px;
+    font-size: 30px;
+    border-radius: 500px;
+    border: 1px solid white;
+}
+.container.projects{
+    color: white;
+    border: 1px solid;
+    height: 370px;
+    border-radius: 30px;
+    background: #00000029;
+    backface-visibility: unset;
+    backdrop-filter: blur(12px);
+}
+.card{
+    width: 156px;
+    border-radius: 30px;
+}
+.bot{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
