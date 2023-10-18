@@ -11,7 +11,14 @@
     padding: 0.2rem;
     height: 150px;
 }
-.top{
+.nav{
+    background: linear-gradient(120deg, rgba(120, 255, 120, 0.315), rgba(0, 0, 0, 0.39));
+    transition: border-radius 0.200s ease-in-out;
+    backdrop-filter: blur(5px);
+    font-size: 20px;
+    text-align: right;
+}
+.banner{
     background: linear-gradient(120deg, rgba(120, 255, 120, 0.315), rgba(0, 0, 0, 0.39));
     transition: border-radius 0.200s ease-in-out;
     backdrop-filter: blur(5px);
@@ -55,7 +62,7 @@
 .container.projects{
     color: white;
     border: 1px solid;
-    height: 370px;
+    padding-bottom: 30px;
     border-radius: 30px;
     backface-visibility: unset;
     background: linear-gradient(120deg, rgba(255, 123, 255, 0.39), rgba(120, 255, 120, 0.315));
