@@ -86,11 +86,50 @@
     backdrop-filter: blur(5px);
     background: linear-gradient(120deg, rgba(255, 123, 255, 0.39), rgba(120, 255, 120, 0.315));
 }
+.games {
+    padding-top: 5px;
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    backface-visibility: unset;
+    background: linear-gradient(120deg, rgba(255, 123, 255, 0.39), rgba(120, 255, 120, 0.315));
+}
+.light {
+    --x: -100%;
+    --y: -100%;
+    background: radial-gradient(circle at var(--x) var(--y), rgb(255 255 255 / 18%) 10%, transparent 20%);
+    transition: background 0.1s;
+    width: 100%;
+}
+.content {
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 .projects:hover {
     border-radius: 60px;
     backdrop-filter: blur(12px);
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 36%);
+}
+.games:hover {
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 40%);
+    border: 1px solid #fff;
+    backdrop-filter: blur(12px);
+    border-radius: 60px;
 }
 .abtme:hover {
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 16%);
     border-radius: 60px;
     backdrop-filter: blur(12px);
 }
