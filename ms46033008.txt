@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "auq3l.is-a.dev",
+  "Id": "c0fdfc73-e359-47c0-90de-be4d05d0f00f"
+}
