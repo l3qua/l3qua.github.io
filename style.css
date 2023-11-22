@@ -1,0 +1,128 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.39), rgba(120, 255, 120, 0.315));
+    transition: border-radius 0.200s ease-in-out;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    border: #22B14C dotted;
+    border-radius: 550px;
+    padding: 0.2rem;
+    height: 150px;
+}
+.banner{
+    background: linear-gradient(120deg, rgba(120, 255, 120, 0.315), rgba(0, 0, 0, 0.39));
+    transition: border-radius 0.200s ease-in-out;
+    backdrop-filter: blur(5px);
+    font-size: 20px;
+    text-align: center;
+.tpad{
+    padding: 1rem;
+}
+}
+.abtme{
+    border: 0.15rem solid;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(120deg, rgba(255, 123, 255, 0.39), rgba(120, 255, 120, 0.315));
+    transition: border-radius 0.200s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+.projects{
+    background-color: #22B14C;
+    text-align: center;
+    border: #000 0.15rem solid;
+    border-radius: 8px;
+    padding: 0.2rem;
+    
+}
+.a{
+    font-size: xx-large;
+    text-align: center;
+}
+.logo{
+    bottom: px;
+    position: relative;
+    text-align: center;
+    /* display: flex; */
+    padding: 3px;
+    font-size: 30px;
+    border-radius: 500px;
+    border: 1px solid white;
+}
+.container.projects{
+    color: white;
+    border: 1px solid;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    backface-visibility: unset;
+    background: linear-gradient(120deg, rgba(255, 123, 255, 0.39), rgba(120, 255, 120, 0.315));
+    transition: border-radius 0.200s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+.card{
+    width: 156px;
+    border-radius: 30px;
+}
+.bot{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.border {
+    border: 2px solid white;
+    padding: 3px;
+    text-align: center;
+    border-radius: 30px;
+    transition: border-radius 0.200s ease-in-out;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(120deg, rgba(255, 123, 255, 0.39), rgba(120, 255, 120, 0.315));
+}
+.games {
+    padding-top: 5px;
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    backface-visibility: unset;
+    background: linear-gradient(120deg, rgba(255, 123, 255, 0.39), rgba(120, 255, 120, 0.315));
+}
+.light {
+    --x: -100%;
+    --y: -100%;
+    background: radial-gradient(circle at var(--x) var(--y), rgb(255 255 255 / 18%) 10%, transparent 20%);
+    transition: background 0.1s;
+    width: 100%;
+}
+.content {
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.projects:hover {
+    border-radius: 60px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 36%);
+}
+.games:hover {
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 40%);
+    border: 1px solid #fff;
+    backdrop-filter: blur(12px);
+    border-radius: 60px;
+}
+.abtme:hover {
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 16%);
+    border-radius: 60px;
+    backdrop-filter: blur(12px);
+}
