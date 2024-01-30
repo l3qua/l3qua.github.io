@@ -5,7 +5,7 @@ const games = document.getElementById('games');
 const light = document.getElementById('light');
 
 function ver(){
-        console.log("Current Website Version: ",version)
+    console.log("Current Website Version: ",version)
 }
 
 ver()
