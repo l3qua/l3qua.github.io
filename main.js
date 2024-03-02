@@ -1,6 +1,6 @@
-let date = "Jan 30 2024";
-const time = "01:30:35 AM";
-const version = "Beta 0.56"
+let date = "Mar 1 2024";
+const time = "03:05 PM";
+const version = "Beta 0.56.1"
 const games = document.getElementById('games');
 const light = document.getElementById('light');
 
