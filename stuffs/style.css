@@ -11,7 +11,7 @@
     padding: 1rem;
 }
 }
-.projects{
+.stuffs{
     background-color: #22B14C;
     text-align: center;
     border: #000 0.15rem solid;
@@ -19,7 +19,7 @@
     padding: 0.2rem;
     
 }
-.container.projects{
+.container.stuffs{
     color: white;
     border: 1px solid;
     padding-bottom: 30px;
@@ -29,7 +29,7 @@
     transition: border-radius 0.200s ease-in-out;
     backdrop-filter: blur(5px);
 }
-.projects:hover {
+.stuffs:hover {
     border-radius: 60px;
     backdrop-filter: blur(12px);
     box-shadow: 0 0 20px 20px rgb(0 0 0 / 36%);
