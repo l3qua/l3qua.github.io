@@ -1,7 +1,7 @@
 let docTitle = document.title; // For line 25 to work propely
 let date = "May 18 2024"; // Site deployment date
-const time = "07:55 PM"; // Site deployment time
-const version = "Beta 0.70" // 2 more version before stable
+const time = "14:15 PM"; // Site deployment time
+const version = "Beta 0.70.5" // 2 more version before stable
 const games = document.getElementById('games'); // For main site
 const light = document.getElementById('light'); // For "try" event at line 8
 
