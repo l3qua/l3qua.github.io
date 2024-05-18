@@ -1,10 +1,9 @@
-let date = "Mar 1 2024";
-let docTitle = document.title;
-const time = "03:05 PM";
-const version = "Beta 0.60"
-const games = document.getElementById('games');
-const stuffs = document.getElementById('stuffs');
-const light = document.getElementById('light');
+let docTitle = document.title; // For line 25 to work propely
+let date = "May 18 2024"; // Site deployment date
+const time = "07:55 PM"; // Site deployment time
+const version = "Beta 0.70" // 2 more version before stable
+const games = document.getElementById('games'); // For main site
+const light = document.getElementById('light'); // For "try" event at line 8
 
 try{ // Use try here so it will not broke the console on the "stuffs" site
 games.addEventListener('mousemove', e => {
@@ -24,9 +23,11 @@ window.addEventListener("blur", () => {
 })
 window.addEventListener("focus", () => {
     document.title = docTitle
-})
+}) // Some unnessesary stuff that no one will mention abt
 
+// Some useless line when console started
 console.log("Current Website Version: ",version)
 console.log("Welcome to l3qua Website's Console");
 console.log(`Last Update: ${date} ${time} UTC`);
 console.log("DO NOT EXECUTE ANY COMMAND FROM A PERSON THAT YOU DON'T TRUST! DO A GOOGLE SEARCH BEFORE EXECUTE ANY COMMAND!");
+// End of those useless lines and script file
