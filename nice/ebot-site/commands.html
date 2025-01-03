@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/ebot-site.css">
+    <link rel="icon" href="/nice/ebot-site/assets/images/ebot-logo.png">
+    <title>Commands List | eBot Site</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topsection">
+        <div class = "banner">
+            <div class="topinf">
+                <img src="/nice/ebot-site/assets/images/ebot-logo.png" alt class="logo size = 1px" style="width: 28px;">
+                <a href="/nice/ebot-site/index.html">eBot Site</a>
+        </div>
+        <div class="topnav">
+            <a href="/nice/ebot-site/">Home</a>
+            <a class="active" href="/nice/ebot-site/commands.html">Commands</a>
+            <a href="/nice/ebot-site/faq.html">Troubleshoot + FAQ</a>
+        </div>
+        </div>
+        <div class="pagename">
+            <p>Commands List</p>
+        </div></div>
+
+    <div class="contents">
+        <h1>Slash Commands</h1>
+        <h4>Command | Description | Example</h4>
+        <p>/help | Display a link to the list of available commands | /help</p>
+        <p>/ping | Replies with Pong. | /ping</p>
+        <p>/clear [amount] | Delete some messages from a channel | /clear amount:66</p>
+        <p>/clearwarn [user] [number] | Clears a member warnings | /clearwarn user:@tester01#0001 number:6</p>
+        <p>/kick [user] [reason] | Kick a member in the server | /kick user:@tester01#0001 reason:test</p>
+        <p>/warn [user] [reason] | Warn a member | /kick user:@tester01#0001 reason:test</p>
+        <p>/warnings [user] | Gets a member warns | /warnings user:@tester01#0001</p>
+    </div>
+
+    <div class="contents">
+        <h1>Prefix Commands</h1>
+        <h4>Command | Description | Example | (Requirements)</h4>
+        <p>help | Display a link to the list of available commands | >help</p>
+        <p>memberCount | Count how many members are in your server | >membercount</p>
+        <p>warn [member] [reason] | Warn a member | >warn @tester01#0001 test</p>
+        <p>kick [member] [reason] | Kick a member | >kick @tester01#0001 test</p>
+        <p>ban [member] [reason] | Ban a member | >ban @tester01#0001 test </p>
+        <p>mute [member] [reason] | Mute a member | >mute @tester01#0001 test | muted role</p>
+        <p>nickname [member] [nickname] | Change a member's nickname | >nickname @tester01#0001 tester02</p>
+    </div>
+
+    <!--Scripts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/scripts/main.js"></script>
+</body>
+</html>
