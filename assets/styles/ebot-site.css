@@ -46,6 +46,14 @@ body {
       display: none;
   }
 }
+.topinf img {
+  width: 28px;
+}
+@media (max-width: 400px) {
+  .topinf img {
+      width: 20px;
+  }
+}
 
 .topnav {
   overflow: hidden;
@@ -66,8 +74,14 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+@media (max-width: 400px) {
+  .topnav a {
+    font-size: 14px;
+    padding: 4px 4px;
+  }
+}
 
-.pagename{
+.pagename {
   text-align: center;
   padding: 2rem 2rem;
 }
@@ -75,9 +89,19 @@ body {
   color: #ffffff;
   font-size: 5rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .pagename p {
-      font-size: 3rem;
+      font-size: 4rem;
+  }
+}
+@media (max-width: 400px) {
+  .pagename p {
+      font-size: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .pagename {
+    padding: 0.25rem 1rem;
   }
 }
 

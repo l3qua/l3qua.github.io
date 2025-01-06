@@ -1,7 +1,7 @@
 let docTitle = document.title; // For line 25 to work propely
-let date = "Jan 3 2025"; // Site deployment date
-const time = "13:30 PM"; // Site deployment time
-const version = "Beta 0.80.2" // a few more version before stable
+let date = "Jan 6 2025"; // Site deployment date
+const time = "14:30 PM"; // Site deployment time
+const version = "Beta 0.80.3" // a few more version before stable
 const projects = document.getElementById('projects'); // For main site
 const light = document.getElementById('light'); // For "try" event at line 8
 
