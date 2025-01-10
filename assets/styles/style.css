@@ -1,5 +1,6 @@
 .body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(68,137,155,1);
     background-image: url(https://ssl.gstatic.com/atari/images/simple-header-blended-small.png);
     justify-content: center;
     align-items: center;
