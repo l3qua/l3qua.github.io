@@ -4,4 +4,6 @@ error-sites/file-error.html
 error-sites/404.html
 error-sites/502.html
 nice/cdn
-assets/images/web-icon*
+assets/images/web-icon-32x32.ico
+assets/images/web-icon-16x16.ico
+assets/images/web-icon.ico
