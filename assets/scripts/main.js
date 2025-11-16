@@ -1,7 +1,7 @@
 let docTitle = document.title; // For line 25 to work propely
-let date = "May 1 2025"; // Site deployment date
-const time = "19:35 PM"; // Site deployment time
-const version = "Beta 0.85.2" // a few more version before stable
+let date = "Nov 16 2025"; // Site deployment date
+const time = "14:20 PM"; // Site deployment time
+const version = "Beta 0.86" // a few more version before stable
 const projects = document.getElementById('projects'); // For main site
 const light = document.getElementById('light'); // For "try" event at line 8
 
@@ -24,6 +24,10 @@ window.addEventListener("blur", () => {
 window.addEventListener("focus", () => {
     document.title = docTitle
 }) // Some unnessesary stuff that no one will mention about
+
+function rqmPrompt(){
+    alert ("Please install the requirements inside 'requirements.txt' before running")
+}
 
 // Some useless line when console started
 console.log("Current Website Version: ",version)
